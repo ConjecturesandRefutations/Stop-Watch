@@ -66,10 +66,27 @@
     background-color: blue;
 }
 
+.hour-colon{
+    margin-left: -10px;
+    font-size: large;
+}
+
+.min-colon{
+    margin-left: -10px;
+    font-size: large;
+}
+
 .milli-colon{
     font-size: medium;
+    margin-left: -10px;
 }
 
 .splits{
     font-family: consolas, helvetica;
+}
+
+@media(max-width: 537px) and (min-width: 488px){
+    .milli-colon{
+        margin-left: 0px;
+    }
 }
